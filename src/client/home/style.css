@@ -1,0 +1,31 @@
+.filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.filter-bar__item {
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+  color: #525252;
+  cursor: pointer;
+}
+.filter-bar__item--active {
+  border-bottom: 2px solid #f85431;
+  color: #fd5631;
+}
+.filter-bar__item__tag {
+  font-weight: 700;
+  font-size: 8.5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px;
+  background: #f85431;
+  border-radius: 3.64286px;
+  position: absolute;
+  top: -62%;
+  left: 82%;
+  white-space: nowrap;
+}

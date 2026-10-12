@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": 651,
+      "variantId": 902,
+      "quantity": 1,
+      "modifiers": [],
+      "note": ""
+    }
+  ],
+  "customerInfo": {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "firstName": "Test",
+    "lastName": "User",
+    "phone": "1234567890",
+    "email": "test@example.com",
+    "type": "individual",
+    "shipping": {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "isDefault": false,
+      "addrressName": "Home",
+      "company": "",
+      "line1": "123 Main St",
+      "line2": "",
+      "city": "NYC",
+      "state": "NY",
+      "postalCode": "10001",
+      "country": "US"
+    },
+    "billing": {
+      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "isDefault": false,
+      "addrressName": "Home",
+      "company": "",
+      "line1": "123 Main St",
+      "line2": "",
+      "city": "NYC",
+      "state": "NY",
+      "postalCode": "10001",
+      "country": "US"
+    },
+    "isBillingSameAsShipping": true
+  },
+  "organizerCode": "202cbb15-c76f-48c5-9ef0-1965e69cb98c"
+}

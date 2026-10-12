@@ -1,0 +1,345 @@
+/* ================================================================== */
+/*  EazyTicks Shop — Premium Animations & Micro-interactions           */
+/* ================================================================== */
+
+/* ---- Page / Section entrances ---- */
+@keyframes shop-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes shop-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes shop-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes shop-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes shop-slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---- Skeleton shimmer ---- */
+@keyframes shop-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* ---- Floating / pulse ---- */
+@keyframes shop-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes shop-pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+@keyframes shop-cart-bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+/* ---- Spin / check ---- */
+@keyframes shop-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shop-check-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ---- Overlay ---- */
+@keyframes shop-overlay-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shop-overlay-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes shop-qv-sheet-in {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes shop-qv-sheet-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+@keyframes shop-qv-dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes shop-qv-dialog-out {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+  }
+}
+
+/* ================================================================== */
+/*  Utility classes                                                    */
+/* ================================================================== */
+
+.shop-animate-in {
+  animation: shop-fade-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.shop-animate-in-up {
+  animation: shop-fade-in-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.shop-animate-scale {
+  animation: shop-scale-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.shop-animate-slide-up {
+  animation: shop-slide-up 0.4s cubic-bezier(0.33, 1, 0.68, 1) both;
+}
+
+/* Stagger children — add `shop-stagger` on the parent */
+.shop-stagger > * {
+  animation: shop-fade-in-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.shop-stagger > *:nth-child(1) {
+  animation-delay: 0.04s;
+}
+.shop-stagger > *:nth-child(2) {
+  animation-delay: 0.08s;
+}
+.shop-stagger > *:nth-child(3) {
+  animation-delay: 0.12s;
+}
+.shop-stagger > *:nth-child(4) {
+  animation-delay: 0.16s;
+}
+.shop-stagger > *:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.shop-stagger > *:nth-child(6) {
+  animation-delay: 0.24s;
+}
+.shop-stagger > *:nth-child(7) {
+  animation-delay: 0.28s;
+}
+.shop-stagger > *:nth-child(8) {
+  animation-delay: 0.32s;
+}
+.shop-stagger > *:nth-child(9) {
+  animation-delay: 0.36s;
+}
+.shop-stagger > *:nth-child(10) {
+  animation-delay: 0.4s;
+}
+.shop-stagger > *:nth-child(11) {
+  animation-delay: 0.44s;
+}
+.shop-stagger > *:nth-child(12) {
+  animation-delay: 0.48s;
+}
+
+/* Skeleton shimmer gradient */
+.shop-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shop-shimmer 1.5s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+/* Floating cart button pulse */
+.shop-float-btn {
+  animation: shop-float 3s ease-in-out infinite;
+}
+.shop-float-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  animation: shop-pulse-ring 2s ease-out infinite;
+  border: 2px solid var(--colorThemePrimary);
+  pointer-events: none;
+}
+
+/* Cart badge bounce on change */
+.shop-cart-bounce {
+  animation: shop-cart-bounce 0.3s ease;
+}
+
+/* Modal overlay */
+.shop-overlay {
+  animation: shop-overlay-in 0.2s ease both;
+}
+.shop-qv-overlay-in {
+  animation: shop-overlay-in 180ms ease both;
+}
+.shop-qv-overlay-out {
+  animation: shop-overlay-out 180ms ease both;
+}
+.shop-qv-panel-in {
+  animation: shop-qv-sheet-in 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.shop-qv-panel-out {
+  animation: shop-qv-sheet-out 180ms ease both;
+}
+@media (min-width: 640px) {
+  .shop-qv-panel-in {
+    animation-name: shop-qv-dialog-in;
+  }
+  .shop-qv-panel-out {
+    animation-name: shop-qv-dialog-out;
+  }
+}
+
+/* Modal content */
+.shop-modal-content {
+  animation: shop-scale-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Bottom sheet (mobile) */
+.shop-bottom-sheet {
+  animation: shop-slide-up 0.35s cubic-bezier(0.33, 1, 0.68, 1) both;
+}
+
+/* Card hover lift */
+.shop-card-hover {
+  transition:
+    transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.25s ease;
+}
+.shop-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Success check animation */
+.shop-check-circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  animation: shop-check-draw 0.6s cubic-bezier(0.65, 0, 0.45, 1) 0.2s forwards;
+}
+.shop-check-path {
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: shop-check-draw 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.7s forwards;
+}
+
+/* Spinner */
+.shop-spinner {
+  animation: shop-spin 0.8s linear infinite;
+}
+
+/* Glass effect */
+.shop-glass {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Add to cart feedback */
+@keyframes shop-added-flash {
+  0% {
+    background-color: #000;
+    color: white;
+  }
+  100% {
+    background-color: var(--colorThemePrimary);
+    color: white;
+  }
+}
+.shop-added-flash {
+  animation: shop-added-flash 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shop-qv-overlay-in,
+  .shop-qv-overlay-out,
+  .shop-qv-panel-in,
+  .shop-qv-panel-out {
+    animation-duration: 1ms !important;
+  }
+}

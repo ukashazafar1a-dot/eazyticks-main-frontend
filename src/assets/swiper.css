@@ -1,0 +1,15 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+
+
+.swiper-wrapper .swiper-btn-prev,
+.swiper-wrapper .swiper-btn-next{
+    display:none;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    color:var(--colorThemePrimary);
+    font-size: 26px;
+    padding:6px 8px;
+}

@@ -1,0 +1,53 @@
+.rte.event-policy {
+  overflow-x: auto;
+}
+
+/* Images Banner */
+.images-banner {
+  height: 470px;
+  max-width: 1320px;
+  margin: 2rem auto 1rem;
+}
+.images-banner .w-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: blur(50px) brightness(0.9);
+}
+.images-banner .wrapper-image {
+  max-width: 940px;
+  margin: auto;
+  object-fit: contain;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-position: center center;
+}
+
+.white-overlay {
+  background-color: white;
+  pointer-events: none;
+  filter: blur(5px) brightness(0.9);
+}
+.passcode-model .close-btn {
+  display: none;
+}
+
+.event-detail-page {
+}
+.event-detail-page .text-primary {
+  color: var(--event-primary-color, --colorThemePrimary);
+}
+.event-detail-page .bg-primary {
+  background-color: var(--event-primary-color, --colorThemePrimary);
+}
+.event-detail-page .fill-primary{
+  fill: var(--event-primary-color, --colorThemePrimary);
+}
+.event-detail-page .btn--primary {
+  color: var(--event-primary-text-color, --colorPrimaryBtnText);
+  background-color: var(--event-primary-color, --colorPrimaryBtnBackground);
+  border-color: var(--event-primary-color, --colorPrimaryBtnBackground);
+}

@@ -1,0 +1,82 @@
+.nst0{
+    fill:none;
+    stroke:#1D1D1B;
+    stroke-width:4.7467;
+    stroke-miterlimit:10;
+}
+.nst1{
+    fill:#1D1D1B;
+}
+.nst2{
+    fill:none;
+    stroke:#1D1D1B;
+    stroke-width:5.9333;
+    stroke-miterlimit:10;
+}
+.nst3{
+    fill:none;
+    stroke:#575756;
+    stroke-width:9.4933;
+    stroke-miterlimit:10;
+}
+.nst4{
+    fill:#FFFFFF;
+}
+
+
+
+#Layer_1 .sup-t,
+#Layer_2 .sup-t {
+    cursor: pointer;
+}
+#Layer_1 .sup-t:not(.sold, .booked, .in-cart) circle,
+#Layer_2 .sup-t:not(.sold, .booked, .in-cart) circle {
+    fill: #1D1D1D;
+}
+#Layer_1 .sup-t.sold circle,
+#Layer_2 .sup-t.sold circle {
+    fill: var(--colorTicketSold);
+    stroke: var(--colorTicketSold);
+}
+#Layer_1 .sup-t.in-cart circle,
+#Layer_2 .sup-t.in-cart circle {
+    fill: var(--colorTicketInCart);
+    stroke: var(--colorTicketInCart);
+}
+#Layer_1 .sup-t.in-cart text,
+#Layer_2 .sup-t.in-cart text {
+    fill: white;
+}
+#Layer_1 .sup-t.booked circle,
+#Layer_2 .sup-t.booked circle {
+    fill: var(--colorThemePrimary);
+    stroke: var(--colorThemePrimary);
+}
+
+
+#Layer_2 .sup-t {
+    cursor: pointer;
+}
+
+#Layer_2 .sup-t:not(.sold, .booked, .in-cart) .nst4 {
+    fill: #FFFFFF;
+}
+
+#Layer_2 .sup-t.sold .nst4 {
+    fill: var(--colorTicketSold);
+    stroke: var(--colorTicketSold);
+}
+
+#Layer_2 .sup-t.in-cart .nst4 {
+    fill: var(--colorTicketInCart);
+    stroke: var(--colorTicketInCart);
+}
+
+#Layer_2 .sup-t.in-cart text {
+    fill: white;
+}
+
+#Layer_2 .sup-t.booked .nst4 {
+    fill: var(--colorThemePrimary);
+    stroke: var(--colorThemePrimary);
+}

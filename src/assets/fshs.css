@@ -1,0 +1,6 @@
+.tb-s.sold circle{
+    fill: #c49639;
+}
+.tb-s.in-cart circle{
+    fill: rgb(8, 4, 230);
+}

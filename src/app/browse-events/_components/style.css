@@ -1,0 +1,29 @@
+.browse-page-template {
+  --sidebar-width: 300px;
+
+}
+.main--page-wrap{
+  position: relative;
+}
+.sidebar--main {
+  flex-basis: 25%;
+  background-color: rgb(245, 245, 245);
+    transition: all 0.5s ease 0s;
+}
+ .content--wrapper {
+  flex-basis: 75%;
+}
+
+@media(max-width:1023px){
+  .sidebar--main {
+    width:var(--sidebar-width);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 55;
+    height: 100%;
+  }
+  .main--page-wrap .content--wrapper {
+    flex-basis: 100%;
+  }
+}

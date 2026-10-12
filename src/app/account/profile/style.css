@@ -1,0 +1,48 @@
+.account-page-wrap {
+  display: flex;
+  justify-content: flex-start;
+}
+.account-page-wrap .left-side {
+  flex-basis: 16%;
+}
+.account-page-wrap .right-side {
+  flex-basis: 84%;
+}
+.tab--buttons .nav--link{
+  padding: 10px 12px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 6px;
+  background-color: #f7f7f7;
+  text-align: center;
+  border: 0;
+  color: black;
+  box-shadow: none;
+  font-weight: 500;
+}
+.tab--buttons .nav--link:hover,
+.tab--buttons .nav--link.active{
+  background-color: var(--colorThemePrimary);
+  color: white;
+}
+
+@media(max-width:1023px){
+  .account-page-wrap .left-side{
+    width:300px;
+    position:absolute;
+    height:100%;
+    z-index: 3;
+    background: #fbfbfb;
+    transition: transform 300ms linear;
+  }
+  .account-page-wrap .left-side.not-active{
+    transform: translateX(-110%);
+  }
+  .account-page-wrap .left-side.active-menu{
+    transform: translateX(0%);
+  }
+  .account-page-wrap .right-side{
+    flex-basis: 100%;
+    width:100%;
+  }
+}

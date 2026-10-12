@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Global widget font */
+[data-eazyticks],
+[data-eazyticks] > * {
+  font-family: "Poppins", sans-serif;
+}
+
+[data-eazyticks],
+:root {
+  --ezt-primary: #f85431;
+  --ezt-black: #222222;
+}
+
+/* Slider container */
+.ezt-card-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+}
+
+/* Card */
+.ezt-event-card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-width: 280px;
+  max-width: 320px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.ezt-event-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.ezt-event-link,
+.ezt-event a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Image Section */
+.ezt-event-img-container {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+}
+.ezt-img-placeholder {
+  width: 100%;
+  height: auto;
+}
+.ezt-event-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content Area */
+.ezt-event-content {
+  padding: 12px;
+  position: relative;
+}
+
+/* Badge */
+.ezt-badge {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  background-color: var(--ezt-primary);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ezt-badge span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+/* Favorite Icon */
+.ezt-fav-icon {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  background: white;
+  color: var(--ezt-primary);
+  padding: 4px;
+  border-radius: 9999px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title */
+.ezt-event-title {
+  font-size:14px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 8px 0 0.75rem !important;
+  min-height: 48px;
+  font-family: inherit;
+  padding: 0;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--ezt-black);
+}
+
+/* Details list */
+.ezt-event-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ezt-event-details li {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.ezt-date {
+  color: var(--ezt-primary);
+  font-weight: 500;
+}
+.ezt-price {
+  font-weight: bold;
+}
+.ezt-location {
+  color: rgba(0, 0, 0, 0.75);
+}
+.ezt-category {
+  font-size: 12px;
+  line-height: 16px;
+}
+.ezt-followers {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+.ezt-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--ezt-primary);
+}

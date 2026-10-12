@@ -1,0 +1,171 @@
+# Eazyticks Front-End App in Next.js
+
+
+User-agent: *
+Disallow: /admin
+Disallow: /account
+Disallow: /account/
+Disallow: /account/*
+Disallow: /account/signin
+Disallow: /account/signup
+Disallow: /account/user-profile
+Disallow: /account/user-profile/tickets
+Disallow: /account/user-profile/following
+Disallow: /account/user-profile/*
+Disallow: /account/user-profile/*/*
+Disallow: /account/forgotpassword
+Disallow: /account/email-confirmation
+Disallow: /account/reset-password
+Disallow: /account/organizer-profile
+Disallow: /policies
+Disallow: /policies/privacy-policy
+Disallow: /policies/terms-conditions
+Disallow: /policies/refund-policy
+Disallow: /events
+Disallow: /events/
+Disallow: /events/*/book-ticket
+Disallow: /events/*
+Disallow: /events/*/*
+Disallow: /home/events/detail/*
+Disallow: /organizers
+Disallow: /organizers/
+Disallow: /organizers/*
+Disallow: /checkout/*
+Disallow: /checkout
+Disallow: /checkout/thank-you
+Disallow: /checkout/thank-you/*
+Disallow: /checkout/thank-you/*/*
+Disallow: /browse-events?start_date=
+Disallow: /browse-events?last_date=
+Allow: /browse-events
+
+
+
+Sitemap: https://eazyticks.com/sitemap.xml
+
+# Google adsbot ignores robots.txt unless specifically named!
+User-agent: adsbot-google
+Disallow: /admin
+Disallow: /account
+Disallow: /account/
+Disallow: /account/*
+Disallow: /account/signin
+Disallow: /account/signup
+Disallow: /account/user-profile
+Disallow: /account/user-profile/tickets
+Disallow: /account/user-profile/following
+Disallow: /account/user-profile/*
+Disallow: /account/user-profile/*/*
+Disallow: /account/forgotpassword
+Disallow: /account/email-confirmation
+Disallow: /account/reset-password
+Disallow: /account/organizer-profile
+Disallow: /policies
+Disallow: /policies/privacy-policy
+Disallow: /policies/terms-conditions
+Disallow: /policies/refund-policy
+Disallow: /events
+Disallow: /events/
+Disallow: /events/*/book-ticket
+Disallow: /events/*
+Disallow: /organizers
+Disallow: /organizers/
+Disallow: /organizers/*
+Disallow: /checkout/*
+Disallow: /checkout
+Disallow: /checkout/thank-you
+Disallow: /checkout/thank-you/*
+Disallow: /checkout/thank-you/*/*
+Disallow: /browse-events?start_date=
+Disallow: /browse-events?last_date=
+Allow: /browse-events
+
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+Disallow: /admin
+Disallow: /account
+Disallow: /account/
+Disallow: /account/*
+Disallow: /account/signin
+Disallow: /account/signup
+Disallow: /account/user-profile
+Disallow: /account/user-profile/tickets
+Disallow: /account/user-profile/following
+Disallow: /account/user-profile/*
+Disallow: /account/user-profile/*/*
+Disallow: /account/forgotpassword
+Disallow: /account/email-confirmation
+Disallow: /account/reset-password
+Disallow: /account/organizer-profile
+Disallow: /policies
+Disallow: /policies/privacy-policy
+Disallow: /policies/terms-conditions
+Disallow: /policies/refund-policy
+Disallow: /events
+Disallow: /events/
+Disallow: /events/*/book-ticket
+Disallow: /events/*
+Disallow: /organizers
+Disallow: /organizers/
+Disallow: /organizers/*
+Disallow: /checkout/*
+Disallow: /checkout
+Disallow: /checkout/thank-you
+Disallow: /checkout/thank-you/*
+Disallow: /checkout/thank-you/*/*
+Disallow: /browse-events?start_date=
+Disallow: /browse-events?last_date=
+Allow: /browse-events
+
+
+
+Sitemap: https://eazyticks.com/sitemap.xml
+
+User-agent: AhrefsSiteAudit
+Crawl-delay: 10
+Disallow: /admin
+Disallow: /account
+Disallow: /account/
+Disallow: /account/*
+Disallow: /account/signin
+Disallow: /account/signup
+Disallow: /account/user-profile
+Disallow: /account/user-profile/tickets
+Disallow: /account/user-profile/following
+Disallow: /account/user-profile/*
+Disallow: /account/user-profile/*/*
+Disallow: /account/forgotpassword
+Disallow: /account/email-confirmation
+Disallow: /account/reset-password
+Disallow: /account/organizer-profile
+Disallow: /policies
+Disallow: /policies/privacy-policy
+Disallow: /policies/terms-conditions
+Disallow: /policies/refund-policy
+Disallow: /events
+Disallow: /events/
+Disallow: /events/*/book-ticket
+Disallow: /events/*
+Disallow: /organizers
+Disallow: /organizers/
+Disallow: /organizers/*
+Disallow: /checkout/*
+Disallow: /checkout
+Disallow: /checkout/thank-you
+Disallow: /checkout/thank-you/*
+Disallow: /checkout/thank-you/*/*
+Disallow: /browse-events?start_date=
+Disallow: /browse-events?last_date=
+Allow: /browse-events
+
+Sitemap: https://eazyticks.com/sitemap.xml
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1

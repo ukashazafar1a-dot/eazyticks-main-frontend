@@ -1,0 +1,46 @@
+.zulu_table:hover{
+    fill: var(--colorTicketInCart)
+}
+
+.zulu_table_01{
+    fill: #54009f;
+}
+
+.zulu_table_02{
+    fill: #ebb513;
+}
+
+.zulu_table_03{
+    fill: #218e1f;
+}
+
+.zulu_table_04{
+    fill: #218e1f;
+}
+
+.zulu_table_05{
+    fill: #54009f;
+}
+
+.zulu_table_06{
+    fill: #ebb513;
+}
+
+.zulu_table.sold {
+    fill: var(--colorTicketSold);
+    stroke: var(--colorTicketSold);
+}
+
+.zulu_table.in-cart {
+    fill: var(--colorTicketInCart);
+    stroke: var(--colorTicketInCart);
+}
+
+.zulu_table.in-cart text {
+    fill: white;
+}
+
+.zulu_table.booked {
+    fill: var(--colorThemePrimary);
+    stroke: var(--colorThemePrimary);
+}

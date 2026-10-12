@@ -1,0 +1,189 @@
+.eleven-table-main {
+  flex-basis: 70%;
+  width: 100%;
+  --colorGold: #c49639;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.eleven-table-main .booked path {
+  fill: #f85431;
+}
+.eleven-table-main .cls-4.booked,
+.eleven-table-main .cls-4.in-cart {
+  fill: #f85431;
+}
+.eleven-table-main .cls-2.booked,
+.eleven-table-main .cls-3.booked {
+  stroke: #f85431;
+}
+.eleven-table-main g.in-cart path {
+  fill: #f85431;
+}
+.eleven-table-main .cls-2.in-cart,
+.eleven-table-main .cls-3.in-cart {
+  stroke: #f85431;
+}
+
+/* For the sold ones */
+
+.eleven-table-main .sold path,
+.eleven-table-main .cls-4.sold {
+  fill: #c49639;
+}
+.eleven-table-main g.sold path {
+  fill: #c49639;
+}
+.eleven-table-main .cls-2.sold,
+.eleven-table-main .cls-3.sold {
+  stroke: #c49639;
+}
+
+@media (max-width: 768px) {
+  .eleven-table-main {
+    overflow-x: auto;
+  }
+  .eleven-table-main svg {
+    min-width: 600px;
+  }
+}
+
+/* New SVG */
+.eleven-svg {
+  enable-background: new 0 0 1920 1485;
+
+  .st0 {
+    fill: none;
+    stroke: #c49639;
+    stroke-width: 8.5463;
+    stroke-miterlimit: 10;
+  }
+  .st1 {
+    fill: #ffffff;
+  }
+  .st2 {
+    fill: #f6f4e2;
+    stroke: #e975e4;
+    stroke-width: 4.7479;
+    stroke-miterlimit: 10;
+  }
+  .st3 {
+    fill: #fff;
+  }
+  .st4 {
+    fill: #c49639;
+  }
+  .st5 {
+    fill: url(#SVGID_1_);
+  }
+  .st6 {
+    fill: url(#SVGID_2_);
+  }
+  .st7 {
+    fill: url(#SVGID_3_);
+  }
+  .st8 {
+    fill: url(#SVGID_4_);
+  }
+  .st9 {
+    fill: url(#SVGID_5_);
+  }
+  .st10 {
+    fill: url(#SVGID_6_);
+  }
+  .st11 {
+    fill: url(#SVGID_7_);
+  }
+  .st12 {
+    fill: url(#SVGID_8_);
+  }
+  .st13 {
+    fill: url(#SVGID_9_);
+  }
+  .st14 {
+    fill: url(#SVGID_10_);
+  }
+  .st15 {
+    fill: url(#SVGID_11_);
+  }
+  .st16 {
+    fill: url(#SVGID_12_);
+  }
+  .st17 {
+    display: none;
+  }
+  .st18 {
+    display: inline;
+    fill: #ffffff;
+  }
+  .st19 {
+    display: inline;
+  }
+  .st20 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 8.5463;
+    stroke-miterlimit: 10;
+  }
+  .st21 {
+    fill: none;
+    stroke: #e30613;
+    stroke-width: 8.5463;
+    stroke-miterlimit: 10;
+  }
+  .st22 {
+    fill: url(#SVGID_13_);
+  }
+  .st23 {
+    fill: url(#SVGID_14_);
+  }
+  .st24 {
+    fill: url(#SVGID_15_);
+  }
+  .st25 {
+    fill: url(#SVGID_16_);
+  }
+  .st26 {
+    fill: url(#SVGID_17_);
+  }
+  .st27 {
+    fill: url(#SVGID_18_);
+  }
+  .st28 {
+    fill: url(#SVGID_19_);
+  }
+  .st29 {
+    fill: url(#SVGID_20_);
+  }
+  .st30 {
+    fill: url(#SVGID_21_);
+  }
+  .st31 {
+    fill: url(#SVGID_22_);
+  }
+  .st32 {
+    fill: url(#SVGID_23_);
+  }
+  .st33 {
+    fill: url(#SVGID_24_);
+  }
+}
+
+/* Sold colors */
+.eleven-svg .cls-2 {
+  cursor: pointer;
+}
+.eleven-table-main .sold polygon {
+  fill: var(--colorGold);
+}
+.eleven-table-main .booked polygon {
+  fill: var(--colorThemePrimary);
+}
+.eleven-table-main .in-cart polygon {
+  fill: var(--colorThemePrimary);
+}
+
+.eleven-table-main g {
+  display: block;
+}

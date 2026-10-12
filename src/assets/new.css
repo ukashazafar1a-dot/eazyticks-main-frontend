@@ -1,0 +1,108 @@
+.new-svg .st0 {
+    fill: none;
+    stroke: #2e3192;
+}
+
+.new-svg .st0,
+.new-svg .st1,
+.new-svg .st2,
+.new-svg .st3,
+.new-svg .st4,
+.new-svg .st5,
+.new-svg .st6,
+.new-svg .st7,
+.new-svg .st8,
+.new-svg .st9 {
+    stroke-miterlimit: 10;
+}
+
+.new-svg .st1 {
+    fill: #f3b158;
+}
+
+.new-svg .st1, 
+.new-svg .st2, 
+.new-svg .st3, 
+.new-svg .st4, 
+.new-svg .st5, 
+.new-svg .st6, 
+.new-svg .st7, 
+.new-svg .st8, 
+.new-svg .st9 {
+    stroke: #fff;
+    stroke-width: 3px;
+}
+
+.new-svg .st1, 
+.new-svg .st2, 
+.new-svg .st3, 
+.new-svg .st4, 
+.new-svg .st5, 
+.new-svg .st6, 
+.new-svg .st8, 
+.new-svg .st9 {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.new-svg .st1:hover, 
+.new-svg .st2:hover, 
+.new-svg .st3:hover, 
+.new-svg .st4:hover, 
+.new-svg .st5:hover, 
+.new-svg .st6:hover, 
+.new-svg .st8:hover, 
+.new-svg .st9:hover{
+    stroke-width: 7px;
+    filter: brightness(1.2);
+}
+
+.new-svg .st2 {
+    fill: #b696bc;
+}
+
+.new-svg .st3 {
+    fill: #d96e6e;
+}
+
+.new-svg .st4 {
+    fill: #66b2da;
+}
+
+.new-svg .st10 {
+    fill: #fff;
+}
+
+.new-svg .st5 {
+    fill: #accb5b;
+}
+
+.new-svg .st6 {
+    fill: #fff776;
+}
+
+.new-svg .st7 {
+    fill: #4d4d4d;
+}
+
+.new-svg .st8 {
+    fill: #5d9ba9;
+}
+
+.new-svg .st9 {
+    fill: #c2a080;
+}
+
+.new-svg .tk-selected {
+  background-color: lightgreen;
+}
+
+.new-svg .info-ticket-btns .ticket-button{
+    min-width: 15px;
+    min-height: 15px;
+}
+
+.new-svg .info-ticket-btns .item-tb{
+    font-size: 12px;
+    gap: 0.2rem;
+}

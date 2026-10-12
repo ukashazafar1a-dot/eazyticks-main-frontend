@@ -1,0 +1,24 @@
+/* Select Field */
+.select__control:hover {
+    border-color: var(--dashboardThemePrimary) !important;
+  }
+  
+  .react-select-container {
+    z-index: 0;
+  }
+  
+  .react-select__menu {
+    position: relative;
+    background: transparent;
+    z-index: 20;
+    background: transparent;
+  }
+  .react-select__menu-list {
+    max-height: 200px !important;
+    overflow-y: auto;
+    background: transparent;
+  }
+  .react-select__option--is-selected {
+    background-color:var(--colorThemePrimary) !important;
+    color:white !important;
+  }
